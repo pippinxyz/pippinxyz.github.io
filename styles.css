@@ -1,0 +1,96 @@
+/* Typography */
+
+html {
+	font-family: 'Noto+Serif';
+	font-size: 2.5rem;
+	font-weight: 600;
+        a:link {
+            color: #ead9ff;
+            background-color: transparent;
+            text-decoration: none;
+      }
+	
+       a:visited {
+            color: #ead9ff;
+            background-color: transparent;
+            text-decoration: none;
+      }
+}
+
+@media (min-width: 350px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 50px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: 'Whyte', sans-serif;
+	font-size: 3.75em;
+	margin: 2.0rem 0;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-family: 'Noto+Serif';
+	font-size: 1.0rem;
+	margin: 2.0rem 0;
+	font-weight: 400;
+}
+
+.icons-social i {
+	padding: 0px;
+}
+
+.icons-social a {
+  text-decoration: none;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: 1.0rem;
+	margin-left: 0.5rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
